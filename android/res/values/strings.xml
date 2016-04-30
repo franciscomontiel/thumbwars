@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThumbWars</string>
+    <string name="title_activity_principal">Thumb Wars</string>
+
+    <string name="bienvenida">Bienvenido a Thumb Wars!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_discovery">DiscoveryActivity</string>
+
+    <string name="discovery">Descubrimineto Dispositivos</string>
+    <string name="host">Crear partida</string>
+    <string name="unirse">Unirse a la partida</string>
+    <string name="buscar">Buscar Host</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="title_activity_choose_char">ChooseCharActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="selectChar">Selecciona tu personaje!</string>
+
+</resources>

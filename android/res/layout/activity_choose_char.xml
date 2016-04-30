@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.thumbwars.game.android.ChooseCharActivity">
+
+    <TextView android:text="@string/selectChar" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitulo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/charLayout"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txtTitulo"
+        android:paddingTop="16dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton android:id="@+id/btnChar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fight_button" />
+        <ImageButton android:id="@+id/btnChar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fight_button" />
+        <ImageButton android:id="@+id/btnChar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fight_button" />
+        <ImageButton android:id="@+id/btnChar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fight_button" />
+        
+    </GridLayout>
+
+</RelativeLayout>

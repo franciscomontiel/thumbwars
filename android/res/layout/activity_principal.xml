@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.thumbwars.game.android.PrincipalActivity"
+    android:id="@+id/rlFondo"
+    android:background="@drawable/fondo">
+
+    <TextView android:text="@string/bienvenida" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#92ff6d"
+        android:textColorHighlight="#fff252"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgBtnFight"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/fight_button"
+        style="?android:borderlessButtonStyle"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:minHeight="10dp"
+        android:minWidth="10dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        style="?android:borderlessButtonStyle"
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgBtnOpciones"
+        android:src="@drawable/opciones"
+        android:layout_marginRight="107dp"
+        android:layout_marginEnd="107dp"
+        android:layout_alignTop="@+id/imgBtnFight"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:maxHeight="25dp"
+        android:maxWidth="25dp"
+        android:minHeight="25dp"
+        android:minWidth="25dp" />
+
+</RelativeLayout>
